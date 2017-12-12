@@ -18,6 +18,6 @@ def pizza_party(topping = "cheese")
     topping
 end
 
-def whisper
-    
+def whisper(string)
+    string.downcase
 end
