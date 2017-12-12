@@ -14,8 +14,7 @@ def return_a_value
     "Nice"
 end
 
-def pizza_party(topping)
-    "cheese" 
+def pizza_party(topping = "cheese")
     topping
 end
 
